@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # SHDropdownListView
 
 [![CI Status](http://img.shields.io/travis/lchence/SHDropdownListView.svg?style=flat)](https://travis-ci.org/lchence/SHDropdownListView)
@@ -28,3 +29,6 @@ lchence, chenlaifang@gmail.com
 
 SHDropdownListView is available under the MIT license. See the LICENSE file for more info.
 # SHDropdownListView
+=======
+#SHDropdownListView
+>>>>>>> 3d9d17e4f240f720786b9881ba26f6c26cd9b859
