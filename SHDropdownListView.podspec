@@ -9,24 +9,18 @@
 Pod::Spec.new do |s|
   s.name             = 'SHDropdownListView'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of SHDropdownListView.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
+  s.summary          = 'dropdown list view'
 
   s.description      = <<-DESC
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/<GITHUB_USERNAME>/SHDropdownListView'
+  s.homepage         = 'https://coding.net/u/chenlaifang/p/SHDropdownListView/'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'lchence' => 'chenlaifang@gmail.com' }
-  s.source           = { :git => 'https://github.com/<GITHUB_USERNAME>/SHDropdownListView.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.author           = { 'lchence' => 'chenlaifang@vip.qq.com' }
+  s.source           = { :git => 'https://git.coding.net/chenlaifang/SHDropdownListView.git', :tag => 0.1.0 }
+  # s.social_media_url = 'https://git.coding.net/chenlaifang'
 
   s.ios.deployment_target = '8.0'
 
@@ -36,7 +30,8 @@ TODO: Add long description of the pod here.
   #   'SHDropdownListView' => ['SHDropdownListView/Assets/*.png']
   # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+    s.public_header_files = 'Pod/Classes/**/*.h'
+    s.frameworks = 'UIKit'
+    s.dependency 'SnapKit', '~> 0.15.0'
+    s.dependency 'FXBlurView', '~> 1.6.4'
 end

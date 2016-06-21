@@ -1,0 +1,23 @@
+PODS:
+  - FBSnapshotTestCase (2.1.1):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.1)
+  - FBSnapshotTestCase/Core (2.1.1)
+  - FBSnapshotTestCase/SwiftSupport (2.1.1):
+    - FBSnapshotTestCase/Core
+  - SHDropdownListView (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - SHDropdownListView (from `../`)
+
+EXTERNAL SOURCES:
+  SHDropdownListView:
+    :path: ../
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 432afd8d059ccef7f207225894840a03fbcf7474
+  SHDropdownListView: 35df991282df091afeca51b4b95208a8e59da144
+
+PODFILE CHECKSUM: ec20c46749b212efa17c83607773bd6124065174
+
+COCOAPODS: 1.0.1
